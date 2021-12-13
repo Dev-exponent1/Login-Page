@@ -1,0 +1,55 @@
+body{
+    color: white;
+}
+h1{
+    font-size: 80px;
+}
+.box{
+    background-color: white;
+    height: 700px;
+    margin-top: 60px;
+}
+.bbb{
+    display: flex;
+    /* margin-left: 50px; */
+   
+}
+.bg-primary{
+    padding: 10px 20px;
+}
+.bg-danger{
+padding: 10px 30px;
+}
+.bg-dark{
+    padding: 10px 35px;
+}
+
+@media (max-width:600px){
+    .bobo{
+        display: none;
+    }
+    .box{
+        margin-top: 0%;
+    }
+    .bbb{
+        margin-top: 0%;
+    }
+}
+
+@media (max-width:1400px){
+    .login{
+        margin-top: 2000px;
+    }
+}
+@media (max-width:1198px){
+   .bg-primary{
+    padding: 10px 9px;
+    }
+    .bg-danger{
+        padding: 10px 12px;
+        }
+        .bg-dark{
+            padding: 10px 18px;
+            }
+
+}
